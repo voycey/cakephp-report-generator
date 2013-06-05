@@ -3,7 +3,9 @@ cakephp_report_generator
 
 Outputs CSV files from Custom Queries
 
-I created this because one of my clients has asked for a reporting mechanism but they don't know what reports they want yet (This happens pretty often), the plan is to basically allow queries to be created in raw SQL depending on the clients needs and have this provide a basic framework for delivering these reports in a CSV format. The problem was just working out a way to take multiple multidimensional arrays and generate a CSV file - Im sure there is some magic formula but this will do for now.
+I created this because one of my clients has asked for a reporting mechanism but they don't know what reports they want yet (This happens pretty often), the plan is to basically allow queries to be created in raw SQL depending on the clients needs and have this provide a basic framework for delivering these reports in a CSV format.
+
+This is a pretty hacky way of doing it - it isnt supposed to be incorporated into any kind of automated system - just for quickly producing CSVs for those moments where "We need a report that shows the following - oh and can you have it to me in an hour?".
 
 I havent tested this using CakePHP Find methods yet, I dont expect it to work out of the bag but it does work using raw custom queries (Your mileage may vary as I have only tested it on a couple of queries).
 
