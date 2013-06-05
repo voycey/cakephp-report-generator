@@ -16,7 +16,6 @@
         }
 
         function traverseArray($array) {
-            // Loops through each element. If element again is array, function is recalled. If not, result is echoed.
             foreach($array as $key=>$value) {
                 if(is_array($value)) {
                     $this->traverseArray($value);
