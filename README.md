@@ -45,7 +45,12 @@ public function users_addresses_report() {
 ```
 3) Call your method from the URL and hopefully you will get a nice shiny CSV (well actually a HSV as I have defaulted it to delimit with #'s)
 
+Disclaimer:
+===========
 
+I have just hacked this together - I dont expect it to work on everyones systems but if it does and it saves you a couple of hours then that will do. The functions in the controller can probably be accomplished with inbuilt php functions - I just couldnt easily get them to do what I wanted.
+
+The final function could probably be reused but for my stuff ill need to do some extra processing on it
 
 
 
